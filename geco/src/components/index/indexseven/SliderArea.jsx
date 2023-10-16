@@ -65,13 +65,13 @@ const SliderArea = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="h-seven-slider-content">
                   <Fade up delay={.2000}>
-                <h2 className="title">streamer Items <br /> <strong>for <span>$49_</span></strong></h2>
+                <h2 className="title">streamer's Net worth <br /> <strong><span>$490 Million</span></strong></h2>
                 </Fade>
                 <Fade up delay={.4000}>
-                <p >Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut labore et dolore magna.</p>
+                <p >Billionnaire status is within your grasp! Keep playing and build your empire.</p>
                 </Fade>
                <Fade up delay={.6000}>
-               <a href="/#" className="btn rotated-btn">buy Now</a>
+               <a href="/#" className="btn rotated-btn">account</a>
                </Fade>
               </div>
               
@@ -80,7 +80,7 @@ const SliderArea = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="h-seven-slider-img text-center">
                   <Slide right delay={.4000}>
-                  <img src="assets/img/slider/shop_slider_img01.png" alt="" />
+                  {/* <img src="assets/img/slider/shop_slider_img01.png" alt="" /> */}
                   </Slide>
                
               </div>
@@ -94,21 +94,21 @@ const SliderArea = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="h-seven-slider-content">
                <Fade up dealy={.2000}>
-               <h2 className="title">streamer Items <br /> <strong>for <span>$49_</span></strong></h2>
+               <h2 className="title">streamer's Net worth <br /> <strong><span>$490 Million</span></strong></h2>
                </Fade>
                <Fade up delay={.4000}>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut labore et dolore magna.</p>
+               <p>Billionaire dreams await! Keep playing and see how far you can go.</p>
                </Fade>
               
                 <Fade up delay={.6000}>
-                <a href="/#" className="btn rotated-btn">buy Now</a>
+                <a href="/#" className="btn rotated-btn">account</a>
                 </Fade>
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
               <div className="h-seven-slider-img text-center">
               <Slide right delay={.4000}>
-              <img src="assets/img/slider/shop_slider_img02.png" alt="" />
+              {/* <img src="assets/img/slider/shop_slider_img02.png" alt="" /> */}
               </Slide>
               </div>
             </div>
@@ -120,14 +120,14 @@ const SliderArea = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 col-lg-6">
               <div className="h-seven-slider-content">
-                <h2 className="title" data-animation-in="fadeInUp" data-delay-in=".2">streamer Items <br /> <strong>for <span>$49_</span></strong></h2>
-                <p data-animation-in="fadeInUp" data-delay-in=".4">Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut labore et dolore magna.</p>
-                <a href="/#" className="btn rotated-btn" data-animation-in="fadeInUp" data-delay-in=".6">buy Now</a>
+                <h2 className="title" data-animation-in="fadeInUp" data-delay-in=".2">streamer's Net worth<br /> <strong><span>$490 Million</span></strong></h2>
+                <p data-animation-in="fadeInUp" data-delay-in=".4">The road to riches begins here! Keep playing and amass your fortune.</p>
+                <a href="/#" className="btn rotated-btn" data-animation-in="fadeInUp" data-delay-in=".6">account</a>
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
               <div className="h-seven-slider-img text-center">
-                <img src="assets/img/slider/shop_slider_img03.png" data-animation-in="slideInRightS" data-delay-in=".4" alt="" />
+                {/* <img src="assets/img/slider/shop_slider_img03.png" data-animation-in="slideInRightS" data-delay-in=".4" alt="" /> */}
               </div>
             </div>
           </div>

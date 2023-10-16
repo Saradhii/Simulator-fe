@@ -63,6 +63,8 @@ const SliderArea = () => {
               <div className="slider-content">
                   <Fade up delay={.4000}>
                   <h6>Simulation gaming</h6>
+                  <br></br>
+                  <br></br>
                   </Fade>
                   <Fade up delay={.4000}>
                   <h2>Win the game By Becoming a <span>Billionaire</span></h2>
@@ -71,7 +73,7 @@ const SliderArea = () => {
                   <p>Outsmart your global rivals with your savvy asset management in this immersive simulation.</p>
                   </Fade>
                   <Fade up delay={.8000}>
-                  <a href="/#" className="btn btn-style-two">PLAY</a>
+                  <a href="/login" className="btn btn-style-two">PLAY</a>
                   </Fade>
                
                
@@ -80,7 +82,7 @@ const SliderArea = () => {
           </div>
           <div className="slider-img">
           <Slide right delay={.8000}>
-          <img src="assets/img/slider/four_slider_img01.png" alt="" />
+          {/* <img src="assets/img/slider/four_slider_img01.png" alt="" /> */}
           </Slide>
           </div>
          

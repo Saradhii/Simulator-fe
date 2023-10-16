@@ -23,7 +23,7 @@ function ContactArea() {
       if (response.data.status === 'success') {
         // If login is successful, redirect to "/home"
         console.log("login is success");
-        history.push('/home');
+        history.push('/game');
         // setIsAuthenticated(true);
       } else {
         console.log('Invalid username or password');
@@ -66,6 +66,7 @@ function ContactArea() {
                       onChange={(e) => setPassword(e.target.value)} required/>
                     </div>
                   </div>
+                  <br></br>
                   <button>LOGIN</button>
                 </form>
               </div>

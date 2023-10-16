@@ -11,7 +11,7 @@ import SliderArea from './SliderArea'
 const IndexFour = () => {
   return (
     <>  
-    <HeaderFour/>
+    {/* <HeaderFour/> */}
    
     <main>
       <SliderArea/>

@@ -13,7 +13,7 @@ const CollectionArea = () => {
                 <div className="lc-item-content">
                   <h4>Latest Collection</h4>
                   <p>Lorem ipsum dolor sitjst amet consetur adipisng</p>
-                  <a href="/#" className="btn rotated-btn">buy Now</a>
+                  <a href="/#" className="btn rotated-btn">Sell Now</a>
                 </div>
               </div>
             </div>

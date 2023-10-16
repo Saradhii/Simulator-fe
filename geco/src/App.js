@@ -62,7 +62,7 @@ function App() {
           isAuthenticated={false} // Change this to reflect actual authentication status
           authenticationPath="/" // Change this to the login page path
         /> */}
-        <ScrollToTopRoute exact={true} path='/'>
+        <ScrollToTopRoute exact={true} path='/login'>
           {/* <HomeTwo/> */}
           <Contact/>
         </ScrollToTopRoute>
@@ -103,7 +103,7 @@ function App() {
         <ScrollToTopRoute exact={true} path='/blog-details'>
         <BlogDetails/>
         </ScrollToTopRoute>
-        <ScrollToTopRoute exact={true} path='/home'>
+        <ScrollToTopRoute exact={true} path='/'>
         <HomeFour/>
         </ScrollToTopRoute>
         <ScrollToTopRoute exact={true} path='/index-5'>
@@ -112,7 +112,7 @@ function App() {
         <ScrollToTopRoute exact={true} path='/index-6'>
         <HomeSix/>
         </ScrollToTopRoute>
-        <ScrollToTopRoute exact={true} path='/index-7'>
+        <ScrollToTopRoute exact={true} path='/game'>
         <HomeSeven/>
         </ScrollToTopRoute>
         
