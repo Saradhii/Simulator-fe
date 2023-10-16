@@ -14,7 +14,7 @@ import BrandArea from './BrandArea'
 const IndexSeven = () => {
   return (
    <>
-   <HeaderSix/>
+   {/* <HeaderSix/> */}
     <main>
         <SliderArea/>
         <CollectionArea/>

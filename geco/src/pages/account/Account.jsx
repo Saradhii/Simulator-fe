@@ -14,7 +14,7 @@ import BrandArea from '../../components/index/indexseven/BrandArea'
 const Account = () => {
   return (
    <>
-   <HeaderSix/>
+   {/* <HeaderSix/> */}
     <main>
         {/* <SliderArea/>
         <CollectionArea/>
