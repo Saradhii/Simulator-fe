@@ -18,13 +18,13 @@ const IndexSeven = () => {
     <main>
         <SliderArea/>
         <CollectionArea/>
-        <GameShop/>
-        <GamesArea/>
+        {/* <GameShop/> */}
+        {/* <GamesArea/>
         <ChairProduct/>
         <ChairDiscount/>
-        <BrandArea/>
+        <BrandArea/> */}
     </main>
-   <FooterSix/>
+   {/* <FooterSix/> */}
    </>
   )
 }

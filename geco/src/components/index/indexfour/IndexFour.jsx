@@ -16,12 +16,12 @@ const IndexFour = () => {
     <main>
       <SliderArea/>
       <BrandArea/>
-      <HomeFour/>
+      {/* <HomeFour/>
       <FeatureArea/>
       <ShopArea/>
-      <BlogArea/>
+      <BlogArea/> */}
     </main>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

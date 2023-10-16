@@ -7,12 +7,12 @@ const ChairProduct = () => {
       <div className="row justify-content-center">
         <div className="col-lg-6">
           <div className="game-shop-title text-center mb-65">
-            <h2 className="title">SHOP BEST gaming chair EQUIPMENT</h2>
+            <h2 className="title">Your Account + Networth</h2>
           </div>
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-lg-4 col-md-6 col-sm-8">
+        {/* <div className="col-lg-4 col-md-6 col-sm-8">
           <div className="chair-product-item mb-60">
             <div className="chair-product-thumb">
               <img src="assets/img/product/gaming_chair01.jpg" alt="" />
@@ -156,7 +156,7 @@ const ChairProduct = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-lg-4 col-md-6 col-sm-8">
           <div className="chair-product-item mb-60">
             <div className="chair-product-thumb">
@@ -166,11 +166,12 @@ const ChairProduct = () => {
             <div className="chair-product-content">
               <div className="chair-product-top-content">
                 <div className="main-content">
-                  <span className="category">gaming chair</span>
+                  <span className="category">Player Name</span>
                   <h5 className="title"><a href="/#">Antonob DT-R7</a></h5>
                 </div>
                 <div className="chair-product-price">
-                  <h5 className="price">$29.00</h5>
+                <span className="category">Net Worth</span>
+                  <h5 className="price">$29.00 M</h5>
                 </div>
               </div>
               <div className="chair-product-bottom">

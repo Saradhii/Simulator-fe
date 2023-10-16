@@ -71,7 +71,7 @@ const SliderArea = () => {
                 <p >Billionnaire status is within your grasp! Keep playing and build your empire.</p>
                 </Fade>
                <Fade up delay={.6000}>
-               <a href="/#" className="btn rotated-btn">account</a>
+               <a href="/account" className="btn rotated-btn">account</a>
                </Fade>
               </div>
               
@@ -101,7 +101,7 @@ const SliderArea = () => {
                </Fade>
               
                 <Fade up delay={.6000}>
-                <a href="/#" className="btn rotated-btn">account</a>
+                <a href="/account" className="btn rotated-btn">account</a>
                 </Fade>
               </div>
             </div>
@@ -122,7 +122,7 @@ const SliderArea = () => {
               <div className="h-seven-slider-content">
                 <h2 className="title" data-animation-in="fadeInUp" data-delay-in=".2">streamer's Net worth<br /> <strong><span>$490 Million</span></strong></h2>
                 <p data-animation-in="fadeInUp" data-delay-in=".4">The road to riches begins here! Keep playing and amass your fortune.</p>
-                <a href="/#" className="btn rotated-btn" data-animation-in="fadeInUp" data-delay-in=".6">account</a>
+                <a href="/account" className="btn rotated-btn" data-animation-in="fadeInUp" data-delay-in=".6">account</a>
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
