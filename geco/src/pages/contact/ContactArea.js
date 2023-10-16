@@ -10,7 +10,7 @@ function ContactArea() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const apiUrl = 'http://localhost:9000/z1/userlogin'; 
+      const apiUrl = 'https://rich-teal-spider-tux.cyclic.app/z1/userlogin'; 
 
       const response = await axios.post(apiUrl, {
         email,
