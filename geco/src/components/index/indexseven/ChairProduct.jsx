@@ -7,7 +7,7 @@ const ChairProduct = () => {
       <div className="row justify-content-center">
         <div className="col-lg-6">
           <div className="game-shop-title text-center mb-65">
-            <h2 className="title">Your Account + Networth</h2>
+            <h2 className="title">Your Account</h2>
           </div>
         </div>
       </div>
@@ -170,7 +170,6 @@ const ChairProduct = () => {
                   <h5 className="title"><a href="/#">Antonob DT-R7</a></h5>
                 </div>
                 <div className="chair-product-price">
-                <span className="category">Net Worth</span>
                   <h5 className="price">$29.00 M</h5>
                 </div>
               </div>
