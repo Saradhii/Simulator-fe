@@ -62,7 +62,7 @@ function SignUpForm() {
                       onChange={(e) => setEmail(e.target.value)} required/>
                     </div>
                     <div className="col-md-6">
-                      <input type="email" placeholder="Password" value={password}
+                      <input type="text" placeholder="Password" value={password}
                       onChange={(e) => setPassword(e.target.value)} required/>
                     </div>
                   </div>
