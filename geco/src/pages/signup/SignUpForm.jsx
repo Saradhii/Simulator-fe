@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
-import Styles from "./Styles.css";
-function ContactArea() {
+function SignUpForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const history = useHistory(); // Initialize useHistory
@@ -43,7 +42,7 @@ function ContactArea() {
             </div> */}
             <div className="col-lg-6 pl-45">
               <div className="section-title title-style-three mb-20">
-                <h2>LOGIN INTO THE <span>SIMULATOR</span></h2>
+                <h2>SIGNUP TO THE <span>SIMULATOR</span></h2>
               </div>
               <br></br>
               <br></br>
@@ -68,11 +67,10 @@ function ContactArea() {
                     </div>
                   </div>
                   <br></br>
-                  <button>LOGIN</button>
+                  <button>SIGNUP</button>
                 </form>
-                {/* <button disabled>Or</button> */}
                 <br></br>
-                  <button href="/signup">SIGNUP</button>
+                  <button>LOGIN</button>
               </div>
             </div>
           </div>
@@ -81,4 +79,4 @@ function ContactArea() {
   )
 }
 
-export default ContactArea
+export default SignUpForm

@@ -19,6 +19,7 @@ import HomeSeven from './pages/homes/HomeSeven';
 import { useState } from 'react';
 import AuthRoute from './components/AuthRoute';
 import Account from './pages/account/Account';
+import SignUp from './pages/signup/SignUp';
 // import Loader from "react-js-loader";
 
 
@@ -118,6 +119,9 @@ function App() {
         </ScrollToTopRoute>
         <ScrollToTopRoute exact={true} path='/account'>
         <Account/>
+        </ScrollToTopRoute>
+        <ScrollToTopRoute exact={true} path='/signup'>
+        <SignUp/>
         </ScrollToTopRoute>
      </Switch>
      </Router>

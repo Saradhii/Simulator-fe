@@ -1,0 +1,5 @@
+.centerItem{
+	display: flex;
+	place-items: center;
+	color: #007bff;
+}

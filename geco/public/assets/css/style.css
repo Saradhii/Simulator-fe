@@ -351,6 +351,12 @@ label {
 	color: #fff;
 }
 
+.centerItem{
+	display: flex;
+	place-items: center;
+	color: #007bff;
+}
+
 
 /* 2. Header */
 .header-top-area {
