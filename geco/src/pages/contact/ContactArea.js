@@ -72,7 +72,9 @@ function ContactArea() {
                 </form>
                 {/* <button disabled>Or</button> */}
                 <br></br>
-                  <button href="/signup">SIGNUP</button>
+                <a href="/signup">
+                <button>SIGNUP</button>
+                </a>
               </div>
             </div>
           </div>

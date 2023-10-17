@@ -10,7 +10,7 @@ function SignUpForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const apiUrl = 'https://rich-teal-spider-tux.cyclic.app/z1/userlogin'; 
+      const apiUrl = 'https://rich-teal-spider-tux.cyclic.app/z1/usersignup'; 
 
       const response = await axios.post(apiUrl, {
         email,
@@ -22,11 +22,11 @@ function SignUpForm() {
       // Check the status from the API response
       if (response.data.status === 'success') {
         // If login is successful, redirect to "/home"
-        console.log("login is success");
-        history.push('/game');
+        console.log("signup is success");
+        history.push('/login');
         // setIsAuthenticated(true);
       } else {
-        console.log('Invalid username or password');
+        console.log('Something went wrong');
       }
     } catch (error) {
       console.error('Error:', error);
@@ -70,7 +70,9 @@ function SignUpForm() {
                   <button>SIGNUP</button>
                 </form>
                 <br></br>
-                  <button>LOGIN</button>
+                <a href="/login">
+                <button>LOGIN</button>
+                </a>
               </div>
             </div>
           </div>
