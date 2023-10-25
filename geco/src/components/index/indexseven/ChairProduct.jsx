@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const ChairProduct = () => {
+  const getaccountDetails=()=>{
+    
+  }
+  useEffect=()=>{
+    getaccountDetails();
+  }
   return (
     <section className="chair-product-area">
     <div className="container">
