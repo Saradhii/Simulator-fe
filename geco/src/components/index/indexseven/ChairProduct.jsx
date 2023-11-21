@@ -1,12 +1,19 @@
 import React, { useEffect } from 'react'
+import axios from 'axios';
 
 const ChairProduct = () => {
-  const getaccountDetails=()=>{
-    
+  const getaccountDetails=async()=>{
+    console.log("function started");
+     let reqOptions = {
+       url: "http://localhost:9000/z1//userdetails",
+       method: "GET",
+     }
+     let response = await axios.request(reqOptions);
+     console.log(response.data);
   }
-  useEffect=()=>{
+  useEffect(() => {
     getaccountDetails();
-  }
+  }, []);
   return (
     <section className="chair-product-area">
     <div className="container">
