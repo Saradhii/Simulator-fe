@@ -10,7 +10,7 @@ function SignUpForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const apiUrl = 'http://localhost:9000/z1/usersignup'; 
+      const apiUrl = 'https://rich-teal-spider-tux.cyclic.app/z1/usersignup'; 
 
       const response = await axios.post(apiUrl, {
         email,

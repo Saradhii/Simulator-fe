@@ -2,15 +2,16 @@ import React, { useEffect } from 'react'
 import axios from 'axios';
 
 const ChairProduct = () => {
-  const getaccountDetails=async()=>{
+  const getaccountDetails = async () => {
     console.log("function started");
-     let reqOptions = {
-       url: "http://localhost:9000/z1/userdetails",
-       method: "GET",
-     }
-     let response = await axios.request(reqOptions);
-     console.log(response.data);
-  }
+    let reqOptions = {
+      url: "https://rich-teal-spider-tux.cyclic.app/z1/userdetails",
+      method: "GET",
+      withCredentials: true
+    }
+    let response = await axios.request(reqOptions);
+    console.log(response.data);
+  }  
   useEffect(() => {
     getaccountDetails();
   }, []);
