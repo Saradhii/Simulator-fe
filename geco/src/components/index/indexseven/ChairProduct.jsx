@@ -5,7 +5,7 @@ const ChairProduct = () => {
   const getaccountDetails=async()=>{
     console.log("function started");
      let reqOptions = {
-       url: "http://localhost:9000/z1//userdetails",
+       url: "http://localhost:9000/z1/userdetails",
        method: "GET",
      }
      let response = await axios.request(reqOptions);
