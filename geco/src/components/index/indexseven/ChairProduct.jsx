@@ -3,15 +3,29 @@ import axios from 'axios';
 
 const ChairProduct = () => {
   const getaccountDetails = async () => {
-    console.log("function started");
-    let reqOptions = {
-      url: "https://rich-teal-spider-tux.cyclic.app/z1/userdetails",
-      method: "GET",
-      withCredentials: true
+    try {
+      const token = localStorage.getItem('jwtToken');
+  
+      if (!token) {
+        console.log('Token not found in local storage');
+        return;
+      }
+  
+      const reqOptions = {
+        url: 'https://rich-teal-spider-tux.cyclic.app/z1/userdetails',
+        method: 'GET',
+        withCredentials: true,
+        headers: {
+          Authorization: `Bearer ${token}` // Attach token in the Authorization header
+        }
+      };
+  
+      const response = await axios.request(reqOptions);
+      console.log(response.data);
+    } catch (error) {
+      console.error('Error fetching account details:', error);
     }
-    let response = await axios.request(reqOptions);
-    console.log(response.data);
-  }  
+  }; 
   useEffect(() => {
     getaccountDetails();
   }, []);

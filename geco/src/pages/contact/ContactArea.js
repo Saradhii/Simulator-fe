@@ -23,7 +23,7 @@ function ContactArea() {
       // Check the status from the API response
       if (response.data.status === 'success') {
         // If login is successful, redirect to "/home"
-        console.log("login is success");
+        localStorage.setItem("jwtToken", response.data.token);
         history.push('/game');
         // setIsAuthenticated(true);
       } else {
