@@ -5,21 +5,17 @@ const ChairProduct = () => {
   const getaccountDetails = async () => {
     try {
       const token = localStorage.getItem('jwtToken');
-  
       if (!token) {
         console.log('Token not found in local storage');
         return;
       }
-  
       const reqOptions = {
-        url: 'https://rich-teal-spider-tux.cyclic.app/z1/userdetails',
+        url: 'http://localhost:9000/z1/userdetails',
         method: 'GET',
-        withCredentials: true,
         headers: {
-          Authorization: `Bearer ${token}` // Attach token in the Authorization header
+          Authorization: `Bearer ${token}`
         }
       };
-  
       const response = await axios.request(reqOptions);
       console.log(response.data);
     } catch (error) {

@@ -65,6 +65,9 @@ function SignUpForm() {
                       <input type="text" placeholder="Password" value={password}
                       onChange={(e) => setPassword(e.target.value)} required/>
                     </div>
+                    <div className="col-md-6">
+                      <input type="text" placeholder="Repeat Password" value={password} required/>
+                    </div>
                   </div>
                   <br></br>
                   <button>SIGNUP</button>
