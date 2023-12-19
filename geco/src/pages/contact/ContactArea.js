@@ -59,7 +59,7 @@ function ContactArea() {
                 <form onSubmit={handleSubmit}>
                   <div className="row">
                     <div className="col-md-6">
-                      <input type="text" placeholder="Email"  value={email}
+                      <input type="text" placeholder="Username"  value={email}
                       onChange={(e) => setEmail(e.target.value)} required/>
                     </div>
                     <div className="col-md-6">

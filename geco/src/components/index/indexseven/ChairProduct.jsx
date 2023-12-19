@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 
 const ChairProduct = () => {
+  const [userDetails,setUserDetails]=useState();
   const getaccountDetails = async () => {
     try {
       const token = localStorage.getItem('jwtToken');
@@ -18,6 +19,7 @@ const ChairProduct = () => {
       };
       const response = await axios.request(reqOptions);
       console.log(response.data);
+      setUserDetails(response.data.data);
     } catch (error) {
       console.error('Error fetching account details:', error);
     }
@@ -25,6 +27,7 @@ const ChairProduct = () => {
   useEffect(() => {
     getaccountDetails();
   }, []);
+  console.log("userDetails",userDetails);
   return (
     <section className="chair-product-area">
     <div className="container">
@@ -184,14 +187,18 @@ const ChairProduct = () => {
         <div className="col-lg-4 col-md-6 col-sm-8">
           <div className="chair-product-item mb-60">
             <div className="chair-product-thumb">
-              <img src="assets/img/product/gaming_chair06.jpg" alt="" />
+              {/* <img src="assets/img/product/gaming_chair06.jpg" alt="" /> */}
               <a href="/#" className="cart">Add to cart <i className="fas fa-shopping-basket" /></a>
             </div>
             <div className="chair-product-content">
               <div className="chair-product-top-content">
                 <div className="main-content">
-                  <span className="category">Player Name</span>
-                  <h5 className="title"><a href="/#">Antonob DT-R7</a></h5>
+                  {userDetails && (
+                   <>
+                    <span className="category">PLAYER</span>
+                    <h5 className="title">{userDetails.email}</h5>
+                   </>
+                  )}
                 </div>
                 <div className="chair-product-price">
                   <h5 className="price">$29.00 M</h5>
