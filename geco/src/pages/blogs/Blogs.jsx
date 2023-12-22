@@ -14,7 +14,6 @@ function Blogs() {
 	<Blogarea/>
 	</main>
 	<Footer/>
-	
 	</>
   )
 }
