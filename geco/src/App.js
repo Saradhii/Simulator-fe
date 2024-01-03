@@ -87,7 +87,6 @@ function App() {
         <ScrollToTopRoute exact={true} path='/overview'>
         <Overview/>
         </ScrollToTopRoute>
-        
         <ScrollToTopRoute exact={true} path='/about-us'>
         <AboutUs/>
         </ScrollToTopRoute>
@@ -97,11 +96,9 @@ function App() {
         <ScrollToTopRoute exact={true} path='/game-single'>
         <GameSingle/>
         </ScrollToTopRoute>
-        
         <ScrollToTopRoute exact={true} path='/blogs'>
         <Blogs/>
         </ScrollToTopRoute>
-        
         <ScrollToTopRoute exact={true} path='/blog-details'>
         <BlogDetails/>
         </ScrollToTopRoute>
