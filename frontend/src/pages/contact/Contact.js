@@ -14,7 +14,7 @@ function Contact() {
 
 	{/* <Breadcrumb/> */}
 	<ContactArea/>
-	<Brand/>
+	{/* <Brand/> */}
 	</main>
 	{/* <Footer/> */}
 	</>

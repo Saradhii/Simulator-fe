@@ -53,29 +53,6 @@ const HeaderFour = () => {
   
   return (
     <header className="header-style-four">
-    <div className="header-top-area s-header-top-area d-none d-lg-block">
-      <div className="container custom-container-two">
-        <div className="row align-items-center">
-          <div className="col-lg-6 d-none d-lg-block">
-            <div className="header-top-offer">
-              <p>Exclusive Black Friday ! Offer</p>
-              <span className="coming-time" data-countdown="2022/3/15" />
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="header-social">
-              <span>Follow us on :</span>
-              <ul>
-                <li><a href="/#"><i className="fab fa-facebook-f" /></a></li>
-                <li><a href="/#"><i className="fab fa-twitter" /></a></li>
-                <li><a href="/#"><i className="fab fa-pinterest-p" /></a></li>
-                <li><a href="/#"><i className="fab fa-linkedin-in" /></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div id="sticky-header" className="header-four-wrap main-header menu-area">
       <div className="container custom-container-two">
         <div className="row">
@@ -84,13 +61,12 @@ const HeaderFour = () => {
             <div className="main-menu menu-style-two">
               <nav>
                 <div className="logo">
-                  <a href="/index-4"><img src="assets/img/logo/logo_two.png" alt="Logo" /></a>
                   {/* <img src="https://i.ibb.co/kcMHXLz/M.png"></img> */}
                 </div>
                 <div id="mobile-menu" className="navbar-wrap push-menu d-none d-lg-flex">
                 <ul className="navigation">
                         <li className=" menu-item-has-children"><NavLink  to="/">Home</NavLink>
-                          <ul className="submenu ">
+                          {/* <ul className="submenu ">
                               <li ><Link to="/">Home One</Link></li>
                               <li><Link to="/index-2">Home Two</Link></li>
                               <li><Link to="/index-3">Home Three</Link></li>
@@ -98,30 +74,30 @@ const HeaderFour = () => {
                               <li><Link to="/index-5">Home Five</Link></li>
                               <li><Link to="/index-6">Home Six</Link></li>
                               <li><Link to="/index-7">Home Seven</Link></li>
-                          </ul>
+                          </ul> */}
                         </li>
-                        <li className=" menu-item-has-children"><NavLink to="/about-us">Pages</NavLink>
+                        {/* <li className=" menu-item-has-children"><NavLink to="/about-us">Pages</NavLink>
                           <ul className="submenu">
                             <li><NavLink to="/about-us">About Story</NavLink></li>
                             <li><NavLink to="/upcoming-games">Upcoming Games</NavLink></li>
                             <li><NavLink to="/game-single">Game Single</NavLink></li>
                           </ul>
-                        </li>
-                        <li ><NavLink to="/overview">Overview</NavLink></li>
+                        </li> */}
+                        {/* <li ><NavLink to="/overview">Overview</NavLink></li>
                         <li ><NavLink to="/community">Community</NavLink></li>
-                        <li ><NavLink to="/shop">Store</NavLink></li>
-                        <li className=" menu-item-has-children"><NavLink to="/blogs">Blogs</NavLink>
+                        <li ><NavLink to="/shop">Store</NavLink></li> */}
+                        {/* <li className=" menu-item-has-children"><NavLink to="/blogs">Blogs</NavLink>
                           <ul className="submenu">
                             <li><NavLink to="/blogs">News Page</NavLink></li>
                             <li><NavLink to="/blog-details">News Details</NavLink></li>
                           </ul>
-                        </li>
-                        <li><NavLink to="/contact">contact</NavLink></li>
+                        </li> */}
+                        {/* <li><NavLink to="/contact">contact</NavLink></li> */}
                       </ul>
                 </div>
                 <div className="header-action">
                   <ul>
-                    <li className="header-shop-cart"><a href="/#"><i className="fas fa-shopping-basket" /><span>0</span></a>
+                    <li className="header-shop-cart"><a href="/#"><i className="fas fa-user" /></a>
                       <ul className="minicart">
                         <li className="d-flex align-items-start">
                           <div className="cart-img">
@@ -160,12 +136,12 @@ const HeaderFour = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="header-search"><a href="/#" data-toggle="modal" data-target="#search-modal"><i className="fas fa-search" /></a></li>
+                    {/* <li className="header-search"><a href="/#" data-toggle="modal" data-target="#search-modal"><i className="fas fa-search" /></a></li> */}
                   </ul>
                 </div>
               </nav>
             </div>
-            <div className="mobile-menu">
+            {/* <div className="mobile-menu">
                   <nav className="menu-box">
                     <div className="close-btn"><i className="fas fa-times" /></div>
                     <div className="nav-logo"><Link to="/"><img src="assets/img/logo/logo.png" alt="" title='true' /></Link>
@@ -183,11 +159,11 @@ const HeaderFour = () => {
                       </ul>
                     </div>
                   </nav>
-                </div>
-                <div className="menu-backdrop" />
+                </div> */}
+                {/* <div className="menu-backdrop" /> */}
           </div>
           {/* Modal Search */}
-          <div className="modal fade" id="search-modal" tabIndex={-1} role="dialog" aria-hidden="true">
+          {/* <div className="modal fade" id="search-modal" tabIndex={-1} role="dialog" aria-hidden="true">
             <div className="modal-dialog" role="document">
               <div className="modal-content">
                 <form>
@@ -196,7 +172,7 @@ const HeaderFour = () => {
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
